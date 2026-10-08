@@ -1,0 +1,6 @@
+# Local development & production environment variables template
+# In Cloudflare Dashboard, configure these under Settings -> Variables and Secrets:
+
+TURSO_DATABASE_URL=https://heraclitus-rien-bluerose.aws-ap-southeast-2.turso.io
+TURSO_AUTH_TOKEN=your_turso_jwt_auth_token_here
+ESP32_SECRET_KEY=optional_secret_token_here

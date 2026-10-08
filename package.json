@@ -1,0 +1,13 @@
+{
+  "name": "rose-beeper-gateway",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker Edge Gateway spoon-feeding Prescript quotes from Turso Cloud to ESP32",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.109.0"
+  }
+}
